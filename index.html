@@ -4,6 +4,11 @@
 <head>
   <title>Narcity Online</title>
   <link rel="stylesheet" href="styles.css">
+  <meta property="og:title" content="Narcity Online - News Toronto" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://narcity.online" />
+  <meta property="og:image:url" content="http://narcity.online/headline.png" />
+  <meta property="og:description" content="Preventative measures change weekly schedule" />
   <!-- 
    TODO:
     KEEP HEADER STICKY
@@ -29,67 +34,98 @@
         <img src="magnifying-glass-icon.png" class="icon magnifying-glass fl-l" />
       </div>
     </div>
-    <img src="logo.webp" class="header-image" />
+    <div class="middle-components">
+      <a href="https://www.narcity.com/">
+        <img src="narcity-header.png" class="header-image" />
+      </a>
+    </div>
     <div class="right-components">
       <img src="person-icon.png" class="icon person fl-r" />
-      <img src="canada-flag.png" class="icon canada fl-r" />
+      <a href="https://www.narcity.com/">
+        <img src=" canada-flag.png" class="icon canada fl-r" />
+      </a>
     </div>
   </header>
 
   <div class="grid cont-c">
+    <!-- BREADCRUMB -->
     <aside class="breadcrumb grid-fcl">
-      <img src="news.webp" class="breadcrumb-icon" />
-      <p>News </p>
-      <p class="red-underline">Canada</p>
-    </aside>
-    <aside class="article-title grid-fcl cont-l">
-      <h1>Justin Trudeau Announces Beginning Of Four-Day Work-Week Starting This Fall</h1>
+      <a href="https://www.narcity.com/news">
+        <img src="news.png" class="breadcrumb-icon" />
+      </a>
+      <a href="https://www.narcity.com/news">
+        <p>News </p>
+      </a>
+      <a href="https://www.narcity.com/news/ca">
+        <p class="red-underline">Canada</p>
+      </a>
     </aside>
 
+    <!-- TITLE -->
+    <aside class="article-title grid-fcl cont-l">
+      <h1>Justin Trudeau Announces <br /> Four-Day Work Week <br /> Starting This Fall</h1>
+    </aside>
+
+    <!-- AUTHOR -->
     <aside class="author-info grid-fcl cont-l">
-      <p class="bolded">Colin Leggett</p>
+      <a href="https://www.narcity.com/author/colin-leggett" class="bolded author-link">
+        Colin Leggett
+      </a>
       <p>4 hours ago</p>
     </aside>
 
+    <!-- ARTICLE IMAGE -->
     <aside class="article-image grid-fcl cont-c ">
-      <img src="justintrudeau.jpg" class="article-image-img" />
+      <img src="headline.png" class="article-image-img" />
     </aside>
 
     <!-- 
       <aside class="sidebar-left"></aside> 
       -->
-
+    <!-- MAIN ARTICLE 1 -->
     <article class="main-article grid-fcl">
-      <p>It appears that Justin Trudeau, who normally goes all out for Halloween has had a change of heart. Justin
-        Trudeau's Halloween costume in 2019 will apparently be no costume at all.
+      <p>
+        It appears that Justin Trudeau has made the final call for all Canadian workplaces. Starting as early as
+        September 21, all companies will be migrating over to a four-day work week, excluding the elevator industry.
+        <br />
+        <br />
+        &ldquo;With the opening of schools,&rdquo;
 
-        According to a tweet from Sonia Aslam, a reporter for News1130, the Prime Minister's office revealed that
-        Trudeau would not be dressing up this year, although they did not offer a reason as to why he made that
-        decision.
+        Trudeau spoke during his latest announcement,
 
-        Justin Trudeau has previously shared photos of himself and his family all decked out for Halloween. He has
-        previously dressed up as Clark Kent, Han Solo, and the pilot from The Little Prince.
-
-        The decision not to wear a costume follows a scandal that broke during the election, when it was revealed that
-        Trudeau had previously worn brownface and blackface on more than one occasion. Celebrities including Conan
-        O'Brien and Lilly Singh made fun of the situation.
-
-        Trudeau was even put on the spot when two young black girls asked him about it during an interview with Jessi
-        Cruickshank.
-
-        There were even discussions on Twitter about whether going as Justin Trudeau in blackface for Halloween would be
-        an acceptable costume. Pumpkins sold by Bed, Bath, and Beyond which resembled blackface were also compared to
-        Trudeau on Twitter.</p>
+        &ldquo;We feel it is best to take preventative measures and minimize the flow of people in our
+        communities.&rdquo;
+        <br />
+        <br />
+        With that statement, he cautioned workers to use the newly acquired third day weekend as a means to stay
+        indoors, with the upcoming cooler temperatures. &ldquo;We hope this will help contain and prevent any relapse in
+        numbers&rdquo;
+      </p>
     </article>
 
-    <aside class="test-image grid-fcl cont-c ">
-      <img src="news.webp" />
+    <!-- AD -->
+    <aside class="image-ad-div grid-fcl cont-c ">
+      <a href="https://www.narcity.com/">
+        <img class="image-ad" src="news-ad.png" />
+      </a>
     </aside>
 
+    <!-- MAIN ARTICLE 2 -->
     <article class="main-article grid-fcl">
-      Article
+      <p>
+        This decision will affect all industries across the board, including construction, transportation, healthcare
+        workers, amongst others. This decision will not be affecting civil servants, nor the elevator industry.
+      </p>
     </article>
 
+    <!-- THREE ADS -->
+    <article class="ad-images main-article grid-fcl">
+      <img src="ad-1.png" />
+      <img src="ad-2.png" />
+      <img src="ad-3.png" />
+    </article>
+
+    <!-- RANDOM LAST SENTENCE -->
     <article class="final-bit grid-fcl">
       There are stories everywhere. If you spot a newsworthy event in your city, send us a message, photo, or video
       @NarcityCanada on Twitter and Instagram.
@@ -102,7 +138,40 @@
       -->
 
     <footer class="grid-fcl">
-      Footer
+      <img src="narcity-header.png" class="header-image" />
+      <a href="https://www.narcity.com/our-mission">
+        <p>OUR MISSION</p>
+      </a>
+      <a
+        href="http://affiliates.narcity.com/?id=94645X1549135&isjs=1&jv=14.2.0-stackpath&sref=https%3A%2F%2Fwww.narcity.com%2Fnews%2Fca%2Fon%2Ftoronto%2Fcanadian-national-exhibition-is-critical-to-ontario-ford-wants-to-help-save-it&url=https%3A%2F%2Fwww.narcitymedia.com%2F&xguid=01D81Y28MGEZFZKQ2HRE1YC8S8&xs=1&xtz=240&xuuid=8843dfa525bcaecc6cda6e4d3a744ea8&xjsf=other_click__contextmenu%20%5B2%5D">
+        <p>ADVERTISE</p>
+      </a>
+      <a href="https://www.narcity.com/contact-us">
+        <p>CONTACT US</p>
+      </a>
+      <a
+        href="http://affiliates.narcity.com/?id=94645X1549135&isjs=1&jv=14.2.0-stackpath&sref=https%3A%2F%2Fwww.narcity.com%2Fnews%2Fca%2Fon%2Ftoronto%2Fcanadian-national-exhibition-is-critical-to-ontario-ford-wants-to-help-save-it&url=https%3A%2F%2Fwww.narcitymedia.com%2Fcareers&xguid=01D81Y28MGEZFZKQ2HRE1YC8S8&xs=1&xtz=240&xuuid=8843dfa525bcaecc6cda6e4d3a744ea8&xjsf=other_click__contextmenu%20%5B2%5D">
+        <p>JOBS</p>
+      </a>
+      <a href="https://www.narcity.com/editorial-standards">
+        <p>EDITORIAL STANDARDS</p>
+      </a>
+      <a
+        href="http://affiliates.narcity.com/?id=94645X1549135&isjs=1&jv=14.2.0-stackpath&sref=https%3A%2F%2Fwww.narcity.com%2Fnews%2Fca%2Fon%2Ftoronto%2Fcanadian-national-exhibition-is-critical-to-ontario-ford-wants-to-help-save-it&url=https%3A%2F%2Fwww.narcitymedia.com%2Fpolitical-ads-registry&xguid=01D81Y28MGEZFZKQ2HRE1YC8S8&xs=1&xtz=240&xuuid=8843dfa525bcaecc6cda6e4d3a744ea8&xjsf=other_click__contextmenu%20%5B2%5D">
+        <p>POLITICAL ADS REGISTRY</p>
+      </a>
+      <a href="https://www.narcity.com/privacy-policy">
+        <p>PRIVACY POLICY</p>
+      </a>
+      <a href="https://www.narcity.com/terms-conditions">
+        <p>TERMS & CONDITIONS</p>
+      </a>
+      <div class="footer-bottom">
+        <img src="narcity-footer.png" />
+        <p class="copyright">
+          &#169 2020 All Rights Reserved, Narcity Media Inc.
+        </p>
+      </div>
     </footer>
   </div>
 </body>
